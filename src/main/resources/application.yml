@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: flash-sale
+  datasource:
+    url: jdbc:h2:mem:flashsale
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+  h2:
+    console:
+      enabled: true
